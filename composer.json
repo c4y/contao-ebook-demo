@@ -14,7 +14,7 @@
 		"source":"https://github.com/c4y/contao-ebook-demo/"
 	},
     "require":{
-        "php":">=7.2",
+        "php":">=7.1",
         "contao/core-bundle":"^4.4"
     },
 	"require-dev": {

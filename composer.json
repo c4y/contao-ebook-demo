@@ -1,5 +1,5 @@
 {
-    "name":"Contao4you/contao-ebook-demo",
+    "name":"contao4you/contao-ebook-demo",
     "description":"Beispiele aus dem Contao eBook für Entwickler",
     "keywords":["contao", "ebook", "beispiele"],
     "type":"contao-bundle",

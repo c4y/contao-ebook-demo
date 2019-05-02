@@ -30,6 +30,6 @@
 		"contao/manager-plugin": "<2.0 || >=3.0"
 	},
     "extra": {
-		 "contao-manager-plugin": "MadeYourDay\\RockSolidSlider\\ContaoManagerPlugin"
-	},
+		 "contao-manager-plugin": "Contao4you\\eBook\\ContaoManagerPlugin"
+	}
 }

@@ -1,0 +1,35 @@
+{
+    "name":"Contao4you/contao-ebook-demo",
+    "description":"Beispiele aus dem Contao eBook für Entwickler",
+    "keywords":["contao", "ebook", "beispiele"],
+    "type":"contao-bundle",
+    "license":"MIT License",
+    "authors":[
+        {
+            "name":"Contao4you",
+            "homepage":"https://contao4you.de"
+        }
+    ],
+	"support":{
+		"source":"https://github.com/c4y/contao-ebook-demo/"
+	},
+    "require":{
+        "php":">=7.2",
+        "contao/core-bundle":"^4.7"
+    },
+	"require-dev": {
+		"contao/manager-plugin": "^2.0"
+	},
+    "autoload":{
+		"psr-4": {
+			"Contao4you\\eBook\\": "src/"
+		}
+	},
+	"conflict": {
+		"contao/core": "*",
+		"contao/manager-plugin": "<2.0 || >=3.0"
+	},
+    "extra": {
+		 "contao-manager-plugin": "MadeYourDay\\RockSolidSlider\\ContaoManagerPlugin"
+	},
+}
